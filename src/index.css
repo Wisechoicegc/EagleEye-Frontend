@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans font-normal text-base text-body bg-white dark:bg-boxdark dark:text-bodydark;
+  }
+}
+
+/* Additional custom styles */
